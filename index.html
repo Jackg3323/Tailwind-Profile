@@ -2,9 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <!-- TODO: Add favicon. -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <link rel="stylesheet" href="./src/style.css" />
     <title>Jack Guthrie Profile</title>
   </head>
@@ -28,9 +26,34 @@
       />
       <img
         src="https://pbs.twimg.com/media/BkKQgdUCYAAGCb8.jpg"
-        class="absolute h-96 w-96 opacity-0 hover:opacity-100"
+        class="absolute h-96 w-96 opacity-0 hover:opacity-100 transition delay-100"
       />
     </div>
+
+    <div class="text-center">
+      I couldnt decide which profile picture to use so hover over the picture to
+      see the alternate
+    </div>
+
+    <h2 class="p-4 text-center text-2xl font-semibold">Hobbies:</h2>
+
+
+    <!-- Some how get this list to be centered but text aligned up -->
+    <ul class="flex flex-col items-center list-disc px-2 border-purple-700  border">
+      <li>Dungeons & Dragons</li>
+      <li>Airsoft</li>
+      <li>
+    <!-- Get this to be a nested -->
+        Video Games - Currently Playing:
+          <li class="italic text-red-500">Final Fantasy 14</li>
+          <li class="italic text-red-500">Sea of Thieves</li>
+          <li class="italic text-red-500">Monster Hunter</li>
+          <li class="italic text-red-500">Payday 2</li>
+          <li class="italic text-red-500">Kingdom Hearts Series</li>
+      </li>
+      <li>Anime</li>
+    </ul>
+
     <script type="module" src="./src/index.js"></script>
   </body>
 </html>
