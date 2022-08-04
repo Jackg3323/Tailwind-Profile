@@ -5,3 +5,7 @@
 #game-list li {
   @apply italic text-red-500;
 }
+
+#Inta li {
+  @apply italic text-purple-500;
+}
